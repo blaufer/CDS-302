@@ -1,0 +1,15 @@
+Serial Runs
+
+76979544 ns   For 1
+152197622 ns  For 2
+0.320 s       For 4
+0.640 s       For 8
+1.233 s       For 16
+
+Parallel Runs
+
+4175320 ns  For 1
+4250305 ns  For 2
+4576367 ns  For 4
+5213711 ns  For 8
+12650932 ns For 16

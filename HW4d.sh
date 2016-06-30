@@ -1,0 +1,1 @@
+time wc ascii.txt

@@ -1,0 +1,6 @@
+Private Sub Command23_Click()
+	
+	DoCmd.RunCommand acCmdSaveRecord
+	DoCmd.GoToRecord , , acNewRec
+
+End Sub

@@ -1,0 +1,32 @@
+Private Sub Import_Click()
+
+Dim dlg As Object
+Set dlg = Application.FileDialog(3)
+x = InputBox("Harvest Data Number:")
+
+With dlg
+    .Title = "Select the Excel file to import"
+    .AllowMultiSelect = False
+    .Filters.Clear
+    .Filters.Add "Excel Files", "*.xlsx", 1
+    .Filters.Add "All Files", "*.*", 2
+    
+    If .Show = -1 Then
+        StrFileName = .SelectedItems(1)
+        DoCmd.TransferSpreadsheet acImport, acSpreadsheetTypeExcel8, "Harvest " & x & " Peptide Data", StrFileName, True, "DENOVO sorted by AMP!A21:Z"
+        
+    Else
+    
+    End If
+    
+    End With
+
+Dim alterSQL As String
+alterSQL = "ALTER TABLE [Harvest " & x & " Peptide Data] ADD COLUMN [Harvest Number] NUMBER"
+CurrentDb.Execute alterSQL
+
+Dim updateSQL As String
+updateSQL = "UPDATE [Harvest " & x & " Peptide Data] SET [Harvest Number] = " & x & ""
+CurrentDb.Execute updateSQL
+
+End Sub

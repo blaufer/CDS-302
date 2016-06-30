@@ -1,0 +1,7 @@
+# OK.  We have discussed this already.  The key for this project is planning.  You need a good plan to make sure it will be used and you need a good plan to ensure that you use the correct programs.
+
+For my project I would like to start work on a database that I had already planned on trying to create. In Dr. Bishop's lab, we have thousands (possible more) of sequences for cationic antimicrobial peptides (CAMPs) that have been found from our harvests using nanogel particles and alligator serum. After finding them, we use a python program to calculate data about them and then test some of them against different bacteria to find their kill rates.
+
+Basically, the database would need a way to find which harvest(s) found the CAMP, the data that was created based upon it, and the data (if any) on the bacteria tested against. The main reason for it would be to allow for easier access to the data since it is currently spread throughout many excel files and other types of files, and also allow for better comparison of CAMPs that have been found on different harvests. 
+
+I have been trying to look into types of databases that would work the best for this, but I'm not sure and thus far figured working with SQLite3 would be the best to start with and then possible go from there.

@@ -1,0 +1,15 @@
+You have 10,000 scientific papers in PDF format and an operating system with a text editor, symbolic links, and a file system directory browser. How would you organize the papers to allow for efficient
+
+    Search (finding a paper by a certain author or topic)?
+    Management (how easy is it to set up and re-organize)?
+    Update (adding new papers)? 
+
+Describe how the papers should be organized to maximize effiency for each of the three items above. Decribe how design decisions will affect other items. 
+
+
+
+I would label all of the PDFs with the title of the document then author like this: "Title - Last Name, First Name." Initially setting this up would be very difficult and time consuming to change all of the labels to the same format, however afterwards titling the files would be very easy. Managing the files would be easy assuming that after initial setup, new files are named properly.
+
+Issues with this are that if there are multiple authors, the title would not 100% accurate. Searching by topic, date, etc. would not be possible with this method.
+
+To maximize this, I would actually use Zotero. It has all of these features built in and even allows for quick extraction of a bibliography.
