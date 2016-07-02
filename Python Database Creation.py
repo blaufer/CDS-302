@@ -1,3 +1,8 @@
+# Creates file to import into SQL database
+# First few lines give bash script to download and
+# how to move into sqlite3
+
+
 # wget http://mag.gmu.edu/tmp/astro.csv.gz
 # gunzip astro.csv.gz
 # python HW3e.py > astro.sql

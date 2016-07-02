@@ -1,4 +1,0 @@
-Finish puting data into access.
-
-Create a document that describes how data are stored in DB (across multiple tables).  Something like
-http://bobweigel.net/cds302/index.php?title=Image:Figure_1_4.png

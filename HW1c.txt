@@ -1,5 +1,0 @@
-http://www.nist.gov/pml/data/asd.cfm
-
-The "Lines" database would be equivalent to NASAs Level 3 because the data has already been calibrated.
-
-"Levels" and "Ground States & Ionization Energies" would fall into Level 4 because calculations were done on the prior data along with other data that would be necessary to perform these calculations. 

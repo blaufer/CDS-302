@@ -1,5 +1,0 @@
-# Where is the file?
-
-This author seems to be saying that data is anything gathered from the machinery making the measurement. Considering that this is written for more of a business sense, the best example I can think of for data would be when a person fills out initial employment forms. These forms would contain name, address, social security number, qualifications, etc.
-
-Information would be what is gathered from the data after analyzing it. In science this would mean the visualization or calculations done with the data. Using the previous example, it could be found what qualifications an employer requires or at least typically hires.

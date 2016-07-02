@@ -1,2 +1,0 @@
-I do not think that they can be considered data scientists because of graph or chart that is included in what is presented. According to a definition by IBM, found at http://www-01.ibm.com/software/data/infosphere/data-scientist/, data scientists tend to analyze data and help change company wide policies. While a typical scientist may influence what a company produces or how it is manufactured, they do not tend to alter the entire way a company may market itself.
-
